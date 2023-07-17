@@ -1,15 +1,13 @@
 {
   "files": {
     "main.css": "/binanceOrderBook/static/css/main.85c37cd8.css",
-    "main.js": "/binanceOrderBook/static/js/main.6518d45b.js",
-    "static/js/651.67f35a6b.chunk.js": "/binanceOrderBook/static/js/651.67f35a6b.chunk.js",
+    "main.js": "/binanceOrderBook/static/js/main.57e0f8d9.js",
     "index.html": "/binanceOrderBook/index.html",
     "main.85c37cd8.css.map": "/binanceOrderBook/static/css/main.85c37cd8.css.map",
-    "main.6518d45b.js.map": "/binanceOrderBook/static/js/main.6518d45b.js.map",
-    "651.67f35a6b.chunk.js.map": "/binanceOrderBook/static/js/651.67f35a6b.chunk.js.map"
+    "main.57e0f8d9.js.map": "/binanceOrderBook/static/js/main.57e0f8d9.js.map"
   },
   "entrypoints": [
     "static/css/main.85c37cd8.css",
-    "static/js/main.6518d45b.js"
+    "static/js/main.57e0f8d9.js"
   ]
 }
