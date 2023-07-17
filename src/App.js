@@ -35,8 +35,6 @@ const App = () => {
         const data = JSON.parse(event.data);
         if (data.e === 'depthUpdate') {
           updateOrderBook(data);
-        } else if (data.e === 'depthSnapshot') {
-          handleOrderBookSnapshot(data);
         }
       };
 
@@ -58,17 +56,6 @@ const App = () => {
       setOrderBook({ bids, asks });
     };
 
-    const handleOrderBookSnapshot = (data) => {
-      if (!data.bids || !data.asks) {
-        console.error('Invalid WebSocket message:', data);
-        return;
-      }
-
-      const bids = data.bids.map(([price, volume]) => [parseFloat(price), parseFloat(volume)]);
-      const asks = data.asks.map(([price, volume]) => [parseFloat(price), parseFloat(volume)]);
-
-      setOrderBook({ bids, asks });
-    };
 
     if (selectedPair) {
       subscribeToOrderBook();
