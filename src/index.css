@@ -1,0 +1,70 @@
+.container {
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+select {
+  width: 50%;
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.error {
+  color: #ff0000;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.order-book-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.buy-orders,
+.sell-orders {
+  flex-basis: 48%;
+}
+
+.order-book {
+  width: 100%;
+  margin-top: 10px;
+  border-collapse: collapse;
+}
+
+.order-book th {
+  background-color: #333;
+  color: #fff;
+  padding: 8px;
+  text-align: left;
+}
+
+.order-book td {
+  padding: 8px;
+  border-bottom: 1px solid #ccc;
+}
+
+.order-book td:first-child {
+  color: #ff0000;
+}
+.select-bar{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
